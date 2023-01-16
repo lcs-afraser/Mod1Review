@@ -14,10 +14,10 @@ struct LeafsPlayerView: View {
     
     
     var body: some View {
+        
         ScrollView {
             VStack {
                 ZStack {
-                    Color("LeafsBlue")
                     
                     Color.white
                         .padding(30)
@@ -31,7 +31,7 @@ struct LeafsPlayerView: View {
                     Image(player.imageName)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 270)
+                        .frame(width: 300)
                     
                 }
                 .frame(height: 335)
@@ -68,25 +68,12 @@ struct LeafsPlayerView: View {
                             Text(player.Information)
                                 .foregroundColor(Color.white)
                         }
-                        //                    .overlay(
-                        //                        Rectangle()
-                        //                            .stroke(Color.black)
-                        //                    )
                         
-                        Spacer()
                     }
-                    //                .overlay(
-                    //                    Rectangle()
-                    //                        .stroke(Color.red)
-                    //                )
-                    
-                    Spacer()
-                    
                 }
-                
             }
             .background(Color("LeafsBlue"))
-            .edgesIgnoringSafeArea(.bottom)
+            .edgesIgnoringSafeArea(.all)
             .navigationTitle(player.name)
             
         }

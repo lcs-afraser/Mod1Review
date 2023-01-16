@@ -10,63 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         List {
-//                NavigationLink(destination: {
-//                    AustonMatthewsView() }, label: {
-//                        Image("AustonMatthews")
-//                            .resizable()
-//                            .scaledToFill()
-//                            .frame(width: 70, height: 70, alignment: .center)
-//                            .clipped()
-//                        VStack(alignment: .leading, spacing: 0) {
-//                            Text("Auston Matthews")
-//                                .bold()
-//                                .font(.title2)
-//
-//                        }
-//                    })
-//                NavigationLink(destination: {
-//                    MitchMarnerView() }, label: {
-//                            Image("MitchMarner")
-//                                .resizable()
-//                                .scaledToFill()
-//                                .frame(width: 70, height: 70, alignment: .center)
-//                                .clipped()
-//                        VStack(alignment: .leading, spacing: 0) {
-//                                Text("MitchMarner")
-//                                    .bold()
-//                                    .font(.title2)
-//
-//                            }
-//                    })
-//                NavigationLink(destination: {
-//                    WilliamNylanderView() }, label: {
-//                        Image("WilliamNylander")
-//                            .resizable()
-//                            .scaledToFill()
-//                            .frame(width: 70, height: 70, alignment: .center)
-//                            .clipped()
-//                        VStack(alignment: .leading, spacing: 0) {
-//                            Text("William Nylander")
-//                                .bold()
-//                                .font(.title2)
-//
-//                        }
-//                    })
-//                NavigationLink(destination: {
-//                    JohnTavaresView() }, label: {
-//                        Image("JohnTavares")
-//                            .resizable()
-//                            .scaledToFill()
-//                            .frame(width: 70, height: 70, alignment: .center)
-//                            .clipped()
-//                        VStack(alignment: .leading, spacing: 0) {
-//                            Text("John Tavares")
-//                                .bold()
-//                                .font(.title2)
-//
-//
-//                        }
-//                    })
+            NavigationLink(destination:  {
+                LeafsPlayerView(player: AustonMatthews)
+            }, label: {
+                Text(AustonMatthews.name)
+            })
+            NavigationLink(destination:  {
+                LeafsPlayerView(player: JohnTavares)
+            }, label: {
+                Text(JohnTavares.name)
+            })
+            NavigationLink(destination:  {
+                LeafsPlayerView(player: MitchMarner)
+            }, label: {
+                Text(MitchMarner.name)
+            })
+            NavigationLink(destination:  {
+                LeafsPlayerView(player: WilliamNylander)
+            }, label: {
+                Text(WilliamNylander.name)
+            })
         }
         .navigationTitle("Leafs Trading Cards")
     }
