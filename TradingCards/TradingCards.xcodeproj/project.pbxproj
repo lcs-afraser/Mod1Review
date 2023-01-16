@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3868E02974D7B90075181A /* LeafsPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3868DF2974D7B90075181A /* LeafsPlayerView.swift */; };
 		6E89748C29709617009B920E /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E89748B29709617009B920E /* TradingCardsApp.swift */; };
 		6E89748E29709617009B920E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E89748D29709617009B920E /* ListView.swift */; };
 		6E89749029709618009B920E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E89748F29709618009B920E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E3868DF2974D7B90075181A /* LeafsPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafsPlayerView.swift; sourceTree = "<group>"; };
 		6E89748829709617009B920E /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E89748B29709617009B920E /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		6E89748D29709617009B920E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				6E89749B297097D6009B920E /* MitchMarnerView.swift */,
 				6E89749D297097EA009B920E /* WilliamNylanderView.swift */,
 				6E89749F297097F6009B920E /* JohnTavaresView.swift */,
+				6E3868DF2974D7B90075181A /* LeafsPlayerView.swift */,
 				6E89748F29709618009B920E /* Assets.xcassets */,
 				6E89749129709618009B920E /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				6E89748C29709617009B920E /* TradingCardsApp.swift in Sources */,
 				6E8974A0297097F6009B920E /* JohnTavaresView.swift in Sources */,
 				6E89749E297097EA009B920E /* WilliamNylanderView.swift in Sources */,
+				6E3868E02974D7B90075181A /* LeafsPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
